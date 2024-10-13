@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #332626;
+    color: #fff;
+    display: block;
+}
+.header {
+    /* text-align: center; */
+    color: #000;
+    /* background-color: gray; */
+    /* flex-direction: row; */
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    padding: 1rem 3%;
+    top: 0;
+    left: 0;
+    box-shadow: 0rem 0.2rem rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d4d1d1;
+    margin-bottom: 5%;
+
+}
+
+.header .navbar a {
+    text-decoration: none;
+    /* padding-left: 30px; */
+    color: #000;
+    font-weight: bold; 
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+}
+
+.header a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+.headerTxt {
+    font-size: 20px;
+}
+
+.header h2 span {
+    color: #59a2f5;
+    font-style: italic;
+}
+
+table td {
+    padding: 15px 20px;
+}
+
+.tableText{
+ font-style: italic;
+ text-decoration: none;
+ font-size: large;
+}
+
+.teamGroup {
+    display: inline-flex;
+    margin: 0 auto;
+    gap: 0.5rem;
+    align-content: center; 
+    margin-right: 50px;
+    margin-left: 10px;
+    overflow-x: hidden;
+}
+
+.music { 
+    /* border: 0.5rem solid rgba(255, 255, 255, .1); */
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    /* padding-right: 285px; */
+    margin-top: 5px;
+    /* margin-right: 275px;  */
+    margin-left: auto;
+    color: white;
+    margin-bottom: 4px;   
+    
+}
+.teamGroup td {
+    height: 50%;
+    width: 50%;
+
+}
+
+.pac{
+    display: flex;
+}
+
+.voc{
+    margin-left: 30px;
+}
+
+
+.voc {
+    margin-right: 50px;
+}
+
+.musicx {
+    margin-right: 30px;
+    margin-top:50px;
+    font-style: italic;
+}
+
+.musicx img {
+    border-radius: 10px;
+    border: #000000;  
+}
+
+musicx imghover {/
+    /* font-size: 50px; */
+}
+
+
+.music img {
+    border-radius: 10px;
+    /* width: 30px; */
+}
+
+.packages {
+    text-align: center;
+}
+
+/* 
+.gradurands{
+    border: 0.5rem solid rgba(rgb(2, 2, 2), green, blue, alpha);
+    border-radius: 10px;
+} */
+.gradurands img {
+    height: 220px; 
+    width: 220px;
+    border-radius: 10px;
+}
+
+h3 span {
+    /* color: white; */
+}
+
+.contact span{
+    text-decoration: underline;
+    color: #59a2f5;
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 450px) {
+
+}
